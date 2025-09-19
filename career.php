@@ -124,10 +124,16 @@
                                 <input type="text" class="form-control" id="reference_name" name="reference_name"
                                     placeholder="Reference Name">
                             </div>
-                            <div class="mb-3 col-12">
+
+                            <div class="mb-3">
+  <label for="resume" class="form-label">Upload Resume</label>
+  <input type="file" class="form-control" id="resume" name="resume" accept=".pdf,.doc,.docx">
+</div>
+
+                            <!--<div class="mb-3 col-12">
                                 <input type="file" class="form-control" id="resume" name="resume"
                                     placeholder="Upload Resume">
-                            </div>
+                            </div>-->
                             <div class="mb-3 col-12">
                                 <button type="submit" name="formSubmit"
                                     class="btn btn-warning p-2 w-100 text-white">Submit</button>

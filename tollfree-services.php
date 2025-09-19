@@ -4,7 +4,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>Service Details</h3>
+            <h3>Toll-Free Number Services</h3>
             <ul>
                 <li>
                     <a href="index.php">Home</a>

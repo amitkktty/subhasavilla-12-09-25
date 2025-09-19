@@ -29,7 +29,7 @@
   });
   $(".case-study-slider").owlCarousel({
     loop: true,
-    margin: 30,
+    margin: 10,
     nav: false,
     dots: false,
     center: true,
@@ -39,7 +39,7 @@
       0: { items: 1 },
       600: { items: 2 },
       1024: { items: 3 },
-      1200: { items: 4 },
+      1200: { items: 5 },
     },
   });
   $(".brand-slider").owlCarousel({
@@ -74,6 +74,19 @@
     autoplay: true,
     autoplayHoverPause: true,
     responsive: { 0: { items: 1 }, 992: { items: 2 } },
+    navText: [
+      "<i class='bx bx-chevron-left'></i>",
+      "<i class='bx bx-chevron-right'></i>",
+    ],
+  });
+    $(".Services").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayHoverPause: true,
+    responsive: { 0: { items: 1 }, 992: { items: 4  } },
     navText: [
       "<i class='bx bx-chevron-left'></i>",
       "<i class='bx bx-chevron-right'></i>",

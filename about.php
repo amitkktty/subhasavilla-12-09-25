@@ -121,7 +121,7 @@
 
             <div class="col-lg-6">
                 <div class="choose-img">
-                    <img src="assets/images/choose-img.jpg" alt="Images">
+                    <img src="assets/images/SM722330.jpg" alt="Images">
                 </div>
             </div>
         </div>
@@ -142,8 +142,8 @@
                     <div class="text-center">
                         <i class="flaticon-cyber-security"></i>
                     </div>
-                    <h3><a href="ticket-management-system.php">Ticket Management System</a></h3>
-                    <p>Our Ticket Management System streamlines customer support by organizing and tracking requests
+                    <h3><a href="ticket-management-system.php" style="text-align: center!important">Ticket Management System</a></h3>
+                    <p style="text-align: center!important">Our Ticket Management System streamlines customer support by organizing and tracking requests
                         efficiently, ensuring timely responses and resolution.</p>
                 </div>
             </div>
@@ -153,8 +153,8 @@
                     <div class="text-center">
                         <i class="flaticon-computer"></i>
                     </div>
-                    <h3><a href="desk-management-system.php">Desk Management System</a></h3>
-                    <p>Our Desk Management System simplifies office operations by optimizing workspace usage,
+                    <h3><a href="desk-management-system.php" style="text-align: center!important">Desk Management System</a></h3>
+                    <p style="text-align: center!important">Our Desk Management System simplifies office operations by optimizing workspace usage,
                         scheduling, and resource allocation for improved productivity.</p>
                 </div>
             </div>
@@ -164,8 +164,8 @@
                     <div class="text-center">
                         <i class="flaticon-effective"></i>
                     </div>
-                    <h3><a href="ivr-setup.php">IVR Setup</a></h3>
-                    <p>We provide customized IVR Setup services, allowing businesses to automate call routing, enhance
+                    <h3><a href="ivr-setup.php" style="text-align: center!important">IVR Setup</a></h3>
+                    <p style="text-align: center!important">We provide customized IVR Setup services, allowing businesses to automate call routing, enhance
                         customer experience, and improve operational efficiency.</p>
                 </div>
             </div>
@@ -175,8 +175,8 @@
                     <div class="text-center">
                         <i class="flaticon-consultant"></i>
                     </div>
-                    <h3><a href="digital-marketing.php">Digital Marketing</a></h3>
-                    <p>Our Digital Marketing services help you reach your target audience online through SEO, social
+                    <h3><a href="digital-marketing.php" style="text-align: center!important">Digital Marketing</a></h3>
+                    <p style="text-align: center!important"> Our Digital Marketing services help you reach your target audience online through SEO, social
                         media, content creation, and paid advertising.</p>
                 </div>
             </div>
@@ -186,8 +186,8 @@
                     <div class="text-center">
                         <i class="flaticon-consulting"></i>
                     </div>
-                    <h3><a href="tollfree-services.php">Toll-free Number Services</a></h3>
-                    <p>With our Toll-free Number Services, businesses can provide customers with a free and convenient
+                    <h3><a href="tollfree-services.php" style="text-align: center!important">Toll-free Number Services</a></h3>
+                    <p style="text-align: center!important">With our Toll-free Number Services, businesses can provide customers with a free and convenient
                         way to contact you, boosting customer satisfaction.</p>
                 </div>
             </div>
@@ -197,8 +197,8 @@
                     <div class="text-center">
                         <i class="flaticon-implement"></i>
                     </div>
-                    <h3><a href="#!">Risk Management</a></h3>
-                    <p>Our Risk Management solutions identify, assess, and mitigate potential risks, helping businesses
+                    <h3><a href="#!" style="text-align: center!important">Risk Management</a></h3>
+                    <p style="text-align: center!important">Our Risk Management solutions identify, assess, and mitigate potential risks, helping businesses
                         safeguard their assets and ensure long-term success.</p>
                 </div>
             </div>
@@ -217,22 +217,22 @@
         <h4></h4>
         <div class="brand-slider owl-carousel owl-theme">
             <div class="brand-item">
-                <img src="assets/images/brand-logo/raxaul-nagr-parishad.jpg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/raxaul-nagr-parishad.png" class="brand-logo-one" alt="Images">
             </div>
             <div class="brand-item">
-                <img src="assets/images/brand-logo/barh-nagar-parishad.jpg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/barh-nagar-parishad.png" class="brand-logo-one" alt="Images">
             </div>
             <div class="brand-item">
-                <img src="assets/images/brand-logo/danapur-nagar-parishad.jpg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/danapur-nagar-parishad.png" class="brand-logo-one" alt="Images">
             </div>
             <div class="brand-item">
-                <img src="assets/images/brand-logo/hajipur-nagar-parishad.jpg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/hajipur-nagar-parishad.png" class="brand-logo-one" alt="Images">
             </div>
             <div class="brand-item">
-                <img src="assets/images/brand-logo/hapur-nagar-parishad.jpeg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/hapur-nagar-parishad.png" class="brand-logo-one" alt="Images">
             </div>
             <div class="brand-item">
-                <img src="assets/images/brand-logo/raxaul-nagr-parishad.jpg" class="brand-logo-one" alt="Images">
+                <img src="assets/images/brand-logo/raxaul-nagr-parishad.png" class="brand-logo-one" alt="Images">
             </div>
         </div>
     </div>

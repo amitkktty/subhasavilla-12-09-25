@@ -147,8 +147,8 @@
                 <p>
                     Copyright © <script>
                     document.write(new Date().getFullYear())
-                    </script> Powered by Subhasavilla. Design & Developed by
-                    <a href="https://www.shishtechnology.com/" target="_blank">Shish Technology</a>
+                    </script> Powered by Subhasavilla Devloper. All Rights Reserved.
+                    <!--<a href="https://www.shishtechnology.com/" target="_blank">Shish Technology</a>-->
                 </p>
             </div>
         </div>

@@ -27,6 +27,90 @@ This files table contents are outlined below>>>>>
 ** - Other Area Style
 
 *******************************************/
+
+/* ---- Professional Enquiry Form ---- */
+/*.enquiry-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease;
+}
+.enquiry-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.custom-input {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.95rem;
+}
+.custom-input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+}
+
+.submit-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.25s ease;
+}
+.submit-btn:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}*/
+label.form-label.fw-semibold {
+    color: black;
+}
+
+/* Case study slider images ka gap kam karna */
+.case-study-slider .owl-stage {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.case-study-slider .owl-item {
+  padding: 0 10px !important;   /* yaha gap set karein – 10px ya apki zarurat ke hisab se */
+}
+
+.case-study-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+label.form-label {
+    color: white;
+}
+
+.about-area.ptb-100 {
+      padding-bottom: 60px!important;
+    padding-top: 10px!important;
+}
+
+.banner-item-content h1 {
+    font-size: 50px!important;
+}
+
+.owl-stage-outer.owl-height {
+    height: 660.594px!important;
+}
+
+.owl-stage-outer owl-height {
+    height: 611.188px;
+}
+.d-table-cell{
+   height: 611.188px;
+}
+/*.d-table-cell {
+    height: 68vh;
+}*/
+nav.navbar.navbar-expand-md.navbar-light {
+    padding-top: 0px;
+}
 @import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&amp;display=swap");
 
 body {
@@ -92,10 +176,12 @@ img {
   max-width: 100%;
 }
 
-.ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+/*.ptb-100 {
+  padding-top: 50px!important;
+    padding-bottom: 50px!important;
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
+/*}*/
 
 .pt-100 {
   padding-top: 100px;
@@ -255,8 +341,12 @@ Default Btn Style End
 /*================================
 Top Header
 ===================================*/
-.top-header {
+/*.top-header {
   padding: 7px 0 10px;
+}*/
+
+.top-header {
+  padding: -301px 0 459px;
 }
 
 .top-header-bg {
@@ -465,7 +555,9 @@ Navbar Area
   left: 0;
   padding: 0;
   width: 100%;
-  height: 80px;
+  /*height: 80px;*/
+   /*height: 100px;*/
+   height: 77px;
 }
 
 .main-nav .navbar {
@@ -1096,9 +1188,18 @@ Main Banner Area
 .banner-item {
   position: relative;
   z-index: 1;
-  background-position: center center;
+  background-position: unset;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-width: 1320px) {
+  .banner-item {
+ position: relative;
+  z-index: 1;
+  background-position: unset;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }  
 }
 
 .banner-item::before {
@@ -1110,8 +1211,10 @@ Main Banner Area
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #070b3b;
-  opacity: 0.7;
+  /*background: #000;*/
+    background:black;
+  /*opacity: 0.4;*/
+  opacity: 0.4;
 }
 
 .banner-item-content {
@@ -1131,7 +1234,8 @@ Main Banner Area
 
 .banner-item-content h1 {
   margin-top: 25px;
-  font-size: 70px;
+  /*font-size: 70px;*/
+   font-size: 50px!important;
   color: #ffffff;
   font-weight: bold;
   max-width: 780px;
@@ -1147,15 +1251,17 @@ Main Banner Area
 }
 
 .item-bg1 {
-  background-image: url(../images/home-one/home-one-img1.jpg);
+  background-image: url(../images/home-one/bihari10.jpg);
+  /*background-image: url(../images/home-one/about11-img.jpg);*/
 }
 
 .item-bg2 {
-  background-image: url(../images/home-one/home-one-img2.jpg);
+  /*background-image: url(../images/home-one/home-one-img2.jpg);*/
+  background-image: url(../images/home-one/skyy.jpg);
 }
 
 .item-bg3 {
-  background-image: url(../images/home-one/home-one-img3.jpg);
+  background-image: url(../images/home-one/tollfreee.jpg);
 }
 
 .banner-area {
@@ -3313,22 +3419,27 @@ Case Study Area
 
 .case-study-item a img {
   border-radius: 5px;
-  width: 100px!important;
+  /*width: 100px!important;*/
+   /*width: 170px!important;*/
+   height: 210px;
+   object-fit: contain;
 }
 
 .case-study-item .content {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  width: 90%;
+  /*width: 90%;*/
+    width: 100%;
   /*bottom: -80px;*/
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   background-color: #ffffff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 30px;
+  border-bottom: 3px solid #0a0a47;
 }
 
 .case-study-item .content h3 {
@@ -3337,6 +3448,7 @@ Case Study Area
 
 .case-study-item .content h3 a {
   color: #252525;
+  font-size: 13px;
 }
 
 .case-study-item .content h3:hover a {
@@ -7015,5 +7127,5 @@ Home Page Six Css End
 
 .case-study-item img {
     text-align: center !important;
-    margin: auto;
+    /*margin: auto;*/
 }
