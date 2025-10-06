@@ -827,7 +827,7 @@
         <div class="accordion" id="faqAccordion">
 
           <!-- FAQ 1 -->
-          <div class="accordion-item">
+          <!--<div class="accordion-item">
             <h2 class="accordion-header" id="faq1-heading">
               <button class="accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
@@ -840,7 +840,7 @@
                 Subhasa Villa is a premium residential project offering luxurious living spaces.
               </div>
             </div>
-          </div>
+          </div>-->
 
           <!-- FAQ 2 -->
           <div class="accordion-item">
@@ -853,7 +853,7 @@
             <div id="faq2" class="accordion-collapse collapse"
                  aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                It is located in [Your Location Here], with excellent connectivity.
+                It is located in [Your Location Here], with excellent connectivity.Subhasa Villa is a premium residential project offering luxurious living spaces.
               </div>
             </div>
           </div>
@@ -869,7 +869,7 @@
             <div id="faq3" class="accordion-collapse collapse"
                  aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                SubhasaVilla has 9 years of experience in delivering solutions for businesses and municipalities.
+                SubhasaVilla has 9 years of experience in delivering solutions for businesses and municipalities.desk management, IVR, and toll-free services.
               </div>
             </div>
           </div>
@@ -901,7 +901,7 @@
             <div id="faq5" class="accordion-collapse collapse"
                  aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Yes. SubhasaVilla offers round-the-clock support to ensure customers are never left without assistance.
+                Yes. SubhasaVilla offers round-the-clock support to ensure customers are never left without assistance.Their clients include both business organisations and municipal entities looking for reliable support .
               </div>
             </div>
           </div>
@@ -917,7 +917,7 @@
             <div id="faq6" class="accordion-collapse collapse"
                  aria-labelledby="faq6-heading" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Their process includes discovery → planning → execution → delivery. They focus on aligning strategies with client goals and delivering results that exceed expectations.
+                Their process includes discovery → planning → execution → delivery. They focus on aligning strategies with client goals and delivering results that exceed expectations.Their clients include both business .
               </div>
             </div>
           </div>
@@ -933,7 +933,7 @@
             <div id="faq7" class="accordion-collapse collapse"
                  aria-labelledby="faq7-heading" data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                They have completed over 25 projects and handled more than 100 satisfied clients.
+                They have completed over 25 projects and handled more than 100 satisfied clients.process includes discovery → planning → execution → delivery. They focus on aligning strategies
               </div>
             </div>
           </div>
