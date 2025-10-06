@@ -88,7 +88,7 @@
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
                 <div class="card custom-card" style="width: 100%;">
-                    <img class="card-img-top img-fluid" src="assets/images/case-study/barh.jpg"
+                    <img class="card-img-top img-fluid" src="assets/images/case-study/barh.png"
                         alt="Barh Nagar Parishad">
                     <div class="card-body">
                         <h5 class="card-title">Barh Nagar Parishad</h5>
